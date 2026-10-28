@@ -42,6 +42,19 @@ hr {
     backdrop-filter: blur(10px);
 }
 
+.games {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-left: 40%
+}
+
+.games p {
+    margin: 0;
+}
+
 .games-button {
   position: relative;
   display: inline-flex;
