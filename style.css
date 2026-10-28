@@ -26,6 +26,7 @@ hr {
 
 .main {
     position: relative;
+    box-sizing: border-box;
     width: 90%;
     min-height: 200px;
     background: linear-gradient(#fff2, transparent);
@@ -37,8 +38,7 @@ hr {
     flex-direction: column;
     transition: 0.5s;
     border-radius: 10px;
-    margin: 0 -45px;
-    margin-top: 80px;
+    margin: 80px 0 0;
     backdrop-filter: blur(10px);
 }
 
