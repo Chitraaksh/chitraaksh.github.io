@@ -1,3 +1,3 @@
-document.getElementsByClassName("wor-zle")[0].addEventListener("click", () => {
+document.getElementById("wor-zle").addEventListener("click", () => {
     window.location.assign("https://chitraaksh.github.io/Wor-zle");
 });

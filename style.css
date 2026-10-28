@@ -42,7 +42,7 @@ hr {
     backdrop-filter: blur(10px);
 }
 
-#games-button {
+.games-button {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -62,16 +62,16 @@ hr {
   height: 4rem;
 }
 
-#games-button:focus {
+.games-button:focus {
   box-shadow: 0 0 0 4px #e9d5ff;
 }
 
-#games-button:hover {
+.games-button:hover {
   color: #ffffff;
 }
 
 
-#games-button .tooltip-wrapper {
+.games-button .tooltip-wrapper {
   position: absolute;
   top: 0;
   left: 50%;
@@ -88,12 +88,12 @@ hr {
   text-align: center;
 }
 
-#games-button:hover .tooltip-wrapper {
+.games-button:hover .tooltip-wrapper {
   opacity: 1;
   transform: translate(-50%, -2rem);
 }
 
-#games-button .tooltip-text {
+.games-button .tooltip-text {
   background-color: #000000;
   padding: 0.25rem 0.5rem;
   border-radius: 0.125rem;
@@ -102,13 +102,13 @@ hr {
 
 /* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
-  #games-button {
+  .games-button {
     color: #ffffff;
   }
-  #games-button .button-background {
+  .games-button .button-background {
     background-color: #111827;
   }
-  #games-button:focus {
+  .games-button:focus {
     box-shadow: 0 0 0 4px #6b21a8;
   }
 }
